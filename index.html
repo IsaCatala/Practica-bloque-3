@@ -4,36 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <TITle>Práctica bloque 3</TITle>
     <script>
 
-        function myFunction () {
-            alert("Bienvenido David Escribano")
+        function "myFunction()"{
+            var nom =
+            document.getElementById("name").value;
+            var ape =
+            document.getElementById("apellido").value;
+
+          alert ('Bienvenido' +nom +''+ape)
         }
     </script>
 
 
 </head>
-<body onload="myFuction()">
-    
-
+<body>
 <h1 class="Titulo">Práctica bloque 3</h1>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Introduce nombre: <input type="text" id="name">
+Introduce apellido: <input type="text" id="apellido" onblur="myFunction()">
 
 </body>
 </html>
